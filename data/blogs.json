@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "title": "Cucumber - tales of BDD",
+        "content": "Cucumber is a tool that supports Behaviour-Driven Development(BDD). If you’re new to Behaviour-Driven Development read our BDD introduction first."
+    },
+    {
+        "id": 2,
+        "title": "Second Blog Post",
+        "content": "This is the content of the second blog post. It is also quite long and needs to be truncated."
+    }
+]

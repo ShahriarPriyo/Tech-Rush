@@ -1,0 +1,101 @@
+/* General styling */
+body {
+    font-family: 'Fira Code', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* Header styling */
+header {
+    background: #1f1f1f;
+    color: #e0e0e0;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Navigation links styling */
+nav a {
+    color: #76ff03;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+    /* Smooth transition for color change */
+}
+
+nav a:hover {
+    color: #e4f1db;
+    /* Darker green on hover */
+    text-decoration: wavy;
+    /* Underline on hover */
+}
+
+/* Main content styling */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #1f1f1f;
+    box-shadow: 0 0 10px rgba(245, 242, 242, 0.5);
+}
+
+/* Card container styling */
+#post-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Card styling */
+.post-card {
+    background: #2c2c2c;
+    border: 1px solid #444;
+    flex: 1 1 calc(33.333% - 40px);
+    /* 3 cards per row with 20px gap */
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(245, 242, 242, 0.5);
+}
+
+
+.post-card h3 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.post-card p {
+    margin: 10px 0;
+    color: #aaa;
+}
+
+.post-card button {
+    background: #76ff03;
+    color: #121212;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.post-card button:hover {
+    background: #191f15;
+    color: #e0e0e0;
+    /* Darker green on hover */
+}
+
+/* Details page styling */
+#back-button {
+    background: #76ff03;
+    color: #121212;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#back-button:hover {
+    background: #191f15;
+    color: #e0e0e0;
+    /* Darker green on hover */
+}
